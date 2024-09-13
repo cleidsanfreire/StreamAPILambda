@@ -9,7 +9,7 @@ import java.util.List;
 public class Desafio3 {
     public static void main(String[] args) {
 
-        List<Integer> numeros = Arrays.asList(-12,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 4, 3);
+        List<Integer> numeros = Arrays.asList(-15,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 4, 3);
 
         boolean positivo = numeros.stream().allMatch(s -> s > 0);
 
